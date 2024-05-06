@@ -51,6 +51,12 @@ namespace Ejercicio1
             {
                 Console.WriteLine("Estado no valido.");
             }
+
+        }
+        public void AumentarSalario(decimal Porcentaje)
+        {
+            salario += salario * (Porcentaje / 100);
+            Console.WriteLine($"Salario aumentado en un {Porcentaje}%");
         }
     }   
 }

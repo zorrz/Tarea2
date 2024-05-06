@@ -27,6 +27,7 @@ namespace Ejercicio1
             if (empleadoCambiarEstado != null)
             {
                 empleadoCambiarEstado.CambiarEstado(1);
+                empleadoCambiarEstado.AumentarSalario(25);
                 empleadoCambiarEstado.MostrarDetalles();
 
             }
@@ -48,6 +49,7 @@ namespace Ejercicio1
                 return null;
 
             }
+            
         }   
     }
 }
